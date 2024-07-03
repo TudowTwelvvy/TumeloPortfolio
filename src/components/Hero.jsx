@@ -47,9 +47,9 @@ function Hero() {
               </div>
            </div>
 
-           <div className='basis-1/3 mt-10 sm:mt-0 bg-primaryColor p-4 rounded-full'>
-            <figure className='flex items-center justify-center'>
-              <img src={HeroImg} alt="tumeloPicture" className='rounded-full '/>
+           <div className='basis-1/3 mt-10 sm:mt-0 bg-primaryColor p-4 h-[430px] md:h-full rounded-full'>
+            <figure className='flex items-center justify-center '>
+              <img src={HeroImg} alt="tumeloPicture" className='rounded-full h-[400px] w-[380px] md:w-full md:h-full'/>
             </figure>
            </div>
 
