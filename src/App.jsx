@@ -3,6 +3,8 @@ import Aos from 'aos'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
+import Services from './components/Services'
+import Portfolio from './components/Portfolio'
 
 function App() {
   useEffect(()=>{
@@ -14,6 +16,8 @@ function App() {
       <Header/>
       <main>
         <Hero/>
+        <Services/>
+        <Portfolio/>
       </main>
       <Footer/>
     </div>

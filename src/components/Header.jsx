@@ -22,7 +22,7 @@ function Header() {
           </div>
 
           <div className='flex items-center gap-4'>
-           <button className='flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-lg max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300'><BsSend /> Let's talk</button>
+           <button className='flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-lg max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300 '><BsSend /> Let's talk</button>
 
            <span className='text-2xl text-smallTextColor md:hidden cursor-pointer'><RiMenu3Fill /></span>
           </div>

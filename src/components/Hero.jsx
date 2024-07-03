@@ -23,8 +23,8 @@ function Hero() {
               </a>
               
              </div>
-             <p data-aos="fade-left" data-aos-duration="1500" className='flex gap-2 text-headingColor mt-14 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10' >
-              <span><RiAppsFill /></span>
+             <p data-aos="fade-left" data-aos-duration="1500" className='flex  gap-2 text-headingColor mt-14 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10' >
+              <span className='mt-2'><RiAppsFill /></span>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. A at laborum aliquid ex voluptatem ab eius dolorem mollitia, optio molestiae! Consequatur, id est. Suscipit, itaque nisi nihil mollitia officiis repellendus.</p>
 
               <div className='flex items-center gap-9 mt-14'>
