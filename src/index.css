@@ -33,8 +33,8 @@ section{
 
 .sticky-header{
   width: 100%;
-  height: 100px;
-  line-height: 100px;
+  height: 85px;
+  line-height: 85px;
   position: sticky;
   top:0;
   left: 0;
@@ -53,20 +53,23 @@ section{
     background-color: #00000084;
     z-index:100;
     display: none;
+    
   }
 
   .menu ul{
-    width: 15rem;
+    width: 14rem;
     height: 100%;
     position:absolute;
     top:0;
     right: 0;
-    background-color: #fff;
+    background-color: white;
     z-index:200;
     flex-direction: column;
-    line-height: 30px;
+    line-height: 13px;
     justify-content: center;
     align-items: center;
+    border: 2px solid #8873ef;
+    
   }
 
   .show-menu{

@@ -52,7 +52,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className='bg-[#1b1e29] py-3 mt-14'>
+      <div className='bg-[#1b1e29]  mt-14'>
         <div className="container">
           <div className='flex items-center justify-center sm:justify-between'>
 

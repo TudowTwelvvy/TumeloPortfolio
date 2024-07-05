@@ -1,6 +1,10 @@
 import React from 'react';
 import frontendImg from "../assets/images/front-end.png"
 import backendImg from "../assets/images/backend.png"
+import { SiCss3,SiHtml5,SiJavascript,SiTypescript,SiTailwindcss,SiReact,SiBootstrap,SiNextdotjs,SiNodedotjs,SiExpress,SiMongodb,SiMongoose,SiPython,SiRedux } from "react-icons/si";
+import { TbApi } from "react-icons/tb";
+import { FaJava, FaGithub,FaGit,FaNpm  } from "react-icons/fa";
+import { BsFiletypeSql,BsDatabaseFill  } from "react-icons/bs";
 
 function Services() {
   return (
@@ -65,6 +69,35 @@ function Services() {
             </div>
           </div>
         </div>
+
+        <div className='flex justify-center items-center flex-col'>
+          <h3 className='text-headingColor font-[700] text-[2rem] mb-5 '>Skills</h3>
+          <div data-aos="fade-zoom-in" data-aos-delay="80" data-aos-duration="1000" className='flex flex-wrap border-2 p-4 gap-6 rounded-lg border-primaryColor max-w-[600px]'>
+            <div className='flex flex-col items-center justify-center '><SiHtml5 className='text-2xl text-[#e34c26]'/>HTML5</div>
+            <div className='flex flex-col items-center justify-center text-[#264de4]'><SiCss3 className='text-2xl'/>CSS</div>
+            <div className='flex flex-col items-center justify-center text-[#f0db4f]'><SiJavascript className='text-2xl'/>Javascript</div>
+            <div className='flex flex-col items-center justify-center '><SiTypescript className='text-2xl text-[#007acc]'/>Typescript</div>
+            <div className='flex flex-col items-center justify-center text-[#cb3837]'><FaNpm className='text-2xl'/>NPM</div>
+            <div className='flex flex-col items-center justify-center '><SiTailwindcss className='text-2xl  text-[#007acc]'/>Tailwindcss</div>
+            <div className='flex flex-col items-center justify-center text-[#61DBFB]'><SiReact className='text-2xl '/>React</div>
+            <div className='flex flex-col items-center justify-center '><SiBootstrap className='text-2xl text-[#563d7c]'/>Bootstrap</div>
+            <div className='flex flex-col items-center justify-center '><SiNextdotjs className='text-2xl text-black'/>Next.js</div>
+            <div className='flex flex-col items-center justify-center text-[#3c873a]'><SiNodedotjs className='text-2xl '/>Node.js</div>
+            <div className='flex flex-col items-center justify-center '><SiExpress className='text-2xl text-black'/>Express</div>
+            <div className='flex flex-col items-center justify-center '><SiMongodb className='text-2xl text-green-700'/>MongodDb</div>
+            <div className='flex flex-col items-center justify-center text-red-500'><SiMongoose className='text-2xl '/>Mongoose</div>
+            <div className='flex flex-col items-center justify-center '><SiPython className='text-2xl text-[#4584b6]'/>Python</div>
+            <div className='flex flex-col items-center justify-center '><SiRedux className='text-2xl text-[#764abc]'/>Redux</div>
+            <div className='flex flex-col items-center justify-center '><FaJava className='text-2xl text-[#f34f29]'/>Java</div>
+            <div className='flex flex-col items-center justify-center '><TbApi className='text-2xl text-[#1c1d1e]'/>Api</div>
+            <div className='flex flex-col items-center justify-center '><BsFiletypeSql className='text-2xl text-[#f29111]'/>SQL</div>
+            <div className='flex flex-col items-center justify-center '><BsDatabaseFill className='text-2xl text-[#007acc]'/>Database</div>
+            <div className='flex flex-col items-center justify-center text-[#f34f29]'><FaGit className='text-2xl '/>Git</div>
+            <div className='flex flex-col items-center justify-center '><FaGithub className='text-2xl text-[#171515]'/>Github</div>
+          </div>
+          
+        </div>
+
       </div>
     </section>
   )
