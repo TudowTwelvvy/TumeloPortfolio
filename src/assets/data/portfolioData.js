@@ -31,7 +31,7 @@ const portfolios = [
     description:
       'An E-commerce web application built with React.js, Redux, Tailwind CSS, and Firebase Authentication. The application allows users to browse products, add items to a cart, and delete items from the cart, all while managing user authentication securely.',
     technologies: ['Javascript', 'React', 'Tailwind css', 'Firebase', 'Redux'],
-    siteUrl: 'https://github.com/TudowTwelvvy/TwelvvyEshop-',
+    siteUrl: 'https://twelvvyeshop.netlify.app',
     sourceCode: 'https://github.com/TudowTwelvvy/TwelvvyEshop-',
   },
   {
@@ -42,7 +42,7 @@ const portfolios = [
     description:
       'A modern estate landing page website built using React.js and Tailwind CSS. It features dark mode and light mode, as well as animations to enhance the user experience.',
     technologies: ['Javascript', 'React', 'Tailwind css'],
-    siteUrl: 'https://github.com/TudowTwelvvy/real-estate-landingPage',
+    siteUrl: 'https://tudow-properties.netlify.app',
     sourceCode: 'https://github.com/TudowTwelvvy/real-estate-landingPage',
   },
   {
