@@ -1,153 +1,72 @@
-import portfolioImg01 from "../images/portfolio-01.jpg";
-import portfolioImg02 from "../images/portfolio-02.jpg";
-import portfolioImg03 from "../images/portfolio-03.jpg";
-import portfolioImg04 from "../images/portfolio-04.jpg";
-import portfolioImg05 from "../images/portfolio-05.jpg";
-import portfolioImg06 from "../images/portfolio-06.jpg";
-import portfolioImg07 from "../images/portfolio-07.jpg";
+import portfolioImg01 from '../images/portfolio-01.png'
+import portfolioImg02 from '../images/portfolio-02.png'
+import portfolioImg03 from '../images/portfolio-03.png'
+import portfolioImg04 from '../images/portfolio-04.png'
+import portfolioImg05 from '../images/portfolio-05.png'
 
 const portfolios = [
   {
-    id: "01",
+    id: '01',
     imgUrl: portfolioImg01,
-    category: "Frontend",
-    title: "Finance Technology Website",
+    category: 'Fullstack',
+    title: 'Student Accomodation Website',
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      'A web app designed to streamline the process of finding and managing student accomodation. The application includes features such as accomodation search, detailed listings, and profile management, making it a complete solution for students seeking accommodation. Landloards can create, post, update and delete accomodation. Students can contact the landloards',
+    technologies: [
+      'Javascript',
+      'React',
+      'Redux',
+      'Tailwind css',
+      'Node.js',
+      'MongoDB',
+    ],
+    siteUrl: 'https://student-accomodation.onrender.com',
+    sourceCode: 'https://github.com/TudowTwelvvy/student-accomodation',
   },
   {
-    id: "02",
-    imgUrl: portfolioImg04,
-    category: "Frontend",
-    title: "Video Conference Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "03",
+    id: '02',
     imgUrl: portfolioImg02,
-    category: "Frontend",
-    title: "Multimedia Sharing Website",
+    category: 'Frontend',
+    title: 'TudowEshop website',
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      'An E-commerce web application built with React.js, Redux, Tailwind CSS, and Firebase Authentication. The application allows users to browse products, add items to a cart, and delete items from the cart, all while managing user authentication securely.',
+    technologies: ['Javascript', 'React', 'Tailwind css', 'Firebase', 'Redux'],
+    siteUrl: 'https://github.com/TudowTwelvvy/TwelvvyEshop-',
+    sourceCode: 'https://github.com/TudowTwelvvy/TwelvvyEshop-',
   },
   {
-    id: "04",
-    imgUrl: portfolioImg05,
-    category: "Fullstack",
-    title: "Landing Page",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "05",
+    id: '03',
     imgUrl: portfolioImg03,
-    category: "Fullstack",
-    title: "Landing Page",
+    category: 'Frontend',
+    title: 'Tudow-Properties',
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-
-  {
-    id: "06",
-    imgUrl: portfolioImg06,
-    category: "Frontend",
-    title: "Online Therapy Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      'A modern estate landing page website built using React.js and Tailwind CSS. It features dark mode and light mode, as well as animations to enhance the user experience.',
+    technologies: ['Javascript', 'React', 'Tailwind css'],
+    siteUrl: 'https://github.com/TudowTwelvvy/real-estate-landingPage',
+    sourceCode: 'https://github.com/TudowTwelvvy/real-estate-landingPage',
   },
   {
-    id: "07",
-    imgUrl: portfolioImg07,
-    category: "Fullstack",
-    title: "Appointment Booking Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "08",
-    imgUrl: portfolioImg01,
-    category: "Fullstack",
-    title: "Finance Technology Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "09",
-    imgUrl: portfolioImg02,
-    category: "Frontend",
-    title: "Video Conference Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "10",
-    imgUrl: portfolioImg03,
-    category: "Frontend",
-    title: "File Sharing Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "11",
+    id: '04',
     imgUrl: portfolioImg04,
-    category: "Fullstack",
-    title: "Landing Page",
+    category: 'Fullstack',
+    title: 'TudowShop',
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      'A robust e-commerce platform built using a modern tech stack to provide a seamless shopping experience. The frontend is developed with Next.js and TypeScript, ensuring a highly performant and type-safe codebase. Zustand is utilized for state management, allowing efficient and scalable handling of the application state. Tailwind CSS is employed to craft a responsive and visually appealing user interface with utility-first styling. The integration with Wix is used to leverage additional e-commerce functionalities, such  inventory management, and customer service tools.',
+    technologies: ['TypeScript', 'Nextjs', 'Tailwind css', 'Zustand', 'Wix'],
+    siteUrl: 'https://tudowshop.netlify.app',
+    sourceCode: 'https://github.com/TudowTwelvvy/TudowEcommerce',
   },
   {
-    id: "12",
+    id: '05',
     imgUrl: portfolioImg05,
-    category: "Frontend",
-    title: "Landing Page",
+    category: 'Frontend',
+    title: 'Nike Landing Page',
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      'The Nike website landing page is a visually striking and interactive web application built with React and styled using Tailwind CSS. This landing page captures the essence of Nikes brand by showcasing their latest products, promotions, and iconic designs in a modern and responsive layout.',
+    technologies: ['React', 'Tailwind css'],
+    siteUrl: 'https://nike-landingpage2.netlify.app/',
+    sourceCode: 'https://github.com/TudowTwelvvy/NikeLadingPage',
   },
-  {
-    id: "13",
-    imgUrl: portfolioImg06,
-    category: "Fullstack",
-    title: "Online Therapy Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "14",
-    imgUrl: portfolioImg07,
-    category: "Frontend",
-    title: "Appointment Booking Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-];
+]
 
-export default portfolios;
+export default portfolios

@@ -17,23 +17,26 @@ function Footer() {
           </div>
 
           <div className="w.full sm:w-1/2">
-            <p className='text-gray-300 leading-7 mt-4 sm:mt-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, nisi labore harum quos dolorem inventore voluptatem magni voluptates quibusdam quasi optio quis sed ullam. Porro delectus aperiam tempora sapiente numquam.</p>
+            <p className='text-gray-300 leading-7 font-[600] mt-4 sm:mt-0'>Email: tumelokhanye9811@gmail.com</p>
+            <p className='text-gray-300 leading-7 mt-4 sm:mt-0 font-[600] '>Call: 073 7411 332</p>
             <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
             <span className='text-gray-300 font-[600] text-[15px]'>Follow Me:</span>
             <span className=' h-[35px] w-[35px] bg-[#2b2d33] p-1 rounded-lg cursor-pointer flex justify-center items-center'>
-              <a href="#github" className='text-white text-grap-300 font-[500] text-[18px]'><BsGithub/></a>
+              <a target="_blank" rel="noopener noreferrer"
+                   href="https://github.com/TudowTwelvvy"className='text-white text-grap-300 font-[500] text-[18px]'><BsGithub/></a>
             </span>
             <span className=' h-[35px] w-[35px] bg-[#2b2d33] p-1 rounded-lg cursor-pointer flex justify-center items-center'>
-              <a href="#facebook" className='text-white text-grap-300 font-[500] text-[18px]'><BsFacebook/></a>
+              <a target="_blank" rel="noopener noreferrer"
+                   href="https://www.facebook.com/illmindof.stukzen/" className='text-white text-grap-300 font-[500] text-[18px]'><BsFacebook/></a>
             </span>
             <span className=' h-[35px] w-[35px] bg-[#2b2d33] p-1 rounded-lg cursor-pointer flex justify-center items-center'>
-              <a href="#github" className='text-white text-grap-300 font-[500] text-[18px]'><BsTwitterX/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://x.com/twelvvytudow99" className='text-white text-grap-300 font-[500] text-[18px]'><BsTwitterX/></a>
             </span>
             <span className=' h-[35px] w-[35px] bg-[#2b2d33] p-1 rounded-lg cursor-pointer flex justify-center items-center'>
-              <a href="#linkedin" className='text-white text-grap-300 font-[500] text-[18px]'><BsLinkedin/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/tumelo-khanye-1103b4262/" className='text-white text-grap-300 font-[500] text-[18px]'><BsLinkedin/></a>
             </span>
             <span className=' h-[35px] w-[35px] bg-[#2b2d33] p-1 rounded-lg cursor-pointer flex justify-center items-center'>
-              <a href="#instagram" className='text-white text-grap-300 font-[500] text-[18px]'><BsInstagram/></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/twelvvy_tudow/" className='text-white text-grap-300 font-[500] text-[18px]'><BsInstagram/></a>
             </span>
           </div>
           </div>
