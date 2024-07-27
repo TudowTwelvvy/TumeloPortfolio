@@ -50,7 +50,7 @@ function Modal({ activeId, setShowModal }) {
               </button>
             </a>
             <a
-              href={portfolio.siteUrl}
+              href={portfolio.sourceCode}
               target="_blank"
               rel="noopener noreferrer"
             >
