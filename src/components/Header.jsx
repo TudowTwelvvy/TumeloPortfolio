@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import logo from '../assets/images/logo.png'
 import { RiMenu3Fill } from 'react-icons/ri'
 import { MdDownload } from 'react-icons/md'
+import resume from '../assets/01-Tumelo-Khanye-CV.pdf'
 
 function Header() {
   const headerRef = useRef(null)
@@ -96,10 +97,12 @@ function Header() {
           </div>
 
           <div className="flex items-center gap-4">
-            <button className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-lg max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300 text-sm">
-              <MdDownload />
-              Resume
-            </button>
+            <a href={resume} target="_blank" rel="noopener noreferrer">
+              <button className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-lg max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300 text-sm">
+                <MdDownload />
+                Resume
+              </button>
+            </a>
 
             <span
               onClick={toggleMenu}
