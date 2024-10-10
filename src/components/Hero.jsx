@@ -71,8 +71,7 @@ function Hero() {
                 <RiAppsFill />
               </span>
               I am a dedicated web developer based in South Africa, passionate
-              about crafting clean and functional websites. I have many years of
-              experience, I specialize in front-end and back-end development,
+              about crafting clean and functional websites. I specialize in front-end and back-end development,
               creating responsive and user-friendly interfaces.
             </p>
             <div className="flex items-center gap-9 mt-14">
