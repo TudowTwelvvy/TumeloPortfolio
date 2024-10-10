@@ -148,7 +148,7 @@ function Hero() {
                 <CountUp start={0} end={4} duration={2} suffix="+" />
               </h2>
               <h4 className="text-headingColor font-[600] text-[16px]">
-                Years of Experience
+                Years hands-on Experience
               </h4>
             </div>
             <div className="md-10">
