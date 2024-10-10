@@ -71,9 +71,9 @@ function Hero() {
                 <RiAppsFill />
               </span>
               I am a dedicated web developer based in South Africa, passionate
-              about crafting clean and functional websites. I have many years of
-              experience, I specialize in front-end and back-end development,
-              creating responsive and user-friendly interfaces.
+              about crafting clean and functional websites. I specialize in
+              front-end and back-end development, creating responsive and
+              user-friendly interfaces.
             </p>
             <div className="flex items-center gap-9 mt-14">
               <span className="text-smallTextColor text-[15px] font-[600]">
@@ -148,7 +148,7 @@ function Hero() {
                 <CountUp start={0} end={4} duration={2} suffix="+" />
               </h2>
               <h4 className="text-headingColor font-[600] text-[16px]">
-                Years hands-on Experience
+                Years Building Personal Projects
               </h4>
             </div>
             <div className="md-10">

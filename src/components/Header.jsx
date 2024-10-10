@@ -5,7 +5,7 @@ import { MdDownload } from 'react-icons/md'
 import resume from '../assets/01-Tumelo-Khanye-CV.pdf'
 
 function Header() {
-  const headerRef = useRef(null)
+  const headerRef = useRef(null);
   const menuRef = useRef(null)
 
   const stickyHeaderFunc = () => {
